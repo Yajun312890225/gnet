@@ -26,13 +26,13 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/panjf2000/gnet/v2/internal/bs"
-	gio "github.com/panjf2000/gnet/v2/internal/io"
-	"github.com/panjf2000/gnet/v2/internal/netpoll"
-	"github.com/panjf2000/gnet/v2/internal/socket"
-	"github.com/panjf2000/gnet/v2/pkg/buffer/elastic"
-	gerrors "github.com/panjf2000/gnet/v2/pkg/errors"
-	bsPool "github.com/panjf2000/gnet/v2/pkg/pool/byteslice"
+	"github.com/Yajun312890225/gnet/internal/bs"
+	gio "github.com/Yajun312890225/gnet/internal/io"
+	"github.com/Yajun312890225/gnet/internal/netpoll"
+	"github.com/Yajun312890225/gnet/internal/socket"
+	"github.com/Yajun312890225/gnet/pkg/buffer/elastic"
+	gerrors "github.com/Yajun312890225/gnet/pkg/errors"
+	bsPool "github.com/Yajun312890225/gnet/pkg/pool/byteslice"
 )
 
 type conn struct {

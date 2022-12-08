@@ -8,7 +8,7 @@
 <br />
 <a title="Chat Room" target="_blank" href="https://gitter.im/gnet-io/gnet?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge"><img src="https://badges.gitter.im/gnet-io/gnet.svg" /></a>
 <a title="Go Report Card" target="_blank" href="https://goreportcard.com/report/github.com/panjf2000/gnet"><img src="https://goreportcard.com/badge/github.com/panjf2000/gnet?style=flat-square" /></a>
-<a title="Doc for gnet" target="_blank" href="https://pkg.go.dev/github.com/panjf2000/gnet/v2#section-documentation"><img src="https://img.shields.io/badge/go.dev-doc-007d9c?style=flat-square&logo=read-the-docs" /></a>
+<a title="Doc for gnet" target="_blank" href="https://pkg.go.dev/github.com/Yajun312890225/gnet#section-documentation"><img src="https://img.shields.io/badge/go.dev-doc-007d9c?style=flat-square&logo=read-the-docs" /></a>
 <a title="Mentioned in Awesome Go" target="_blank" href="https://github.com/avelino/awesome-go#networking"><img src="https://awesome.re/mentioned-badge-flat.svg" /></a>
 <a title="Release" target="_blank" href="https://github.com/panjf2000/gnet/releases"><img src="https://img.shields.io/github/v/release/panjf2000/gnet.svg?color=161823&style=flat-square&logo=smartthings" /></a>
 <a title="Tag" target="_blank" href="https://github.com/panjf2000/gnet/tags"><img src="https://img.shields.io/github/v/tag/panjf2000/gnet?color=%23ff8936&logo=fitbit&style=flat-square" /></a>
@@ -49,13 +49,13 @@ English | [中文](README_ZH.md)
 ## With v2 
 
 ```powershell
-go get -u github.com/panjf2000/gnet/v2
+go get -u github.com/Yajun312890225/gnet
 ```
 
 ## With v1
 
 ```powershell
-go get -u github.com/panjf2000/gnet
+go get -ugithub.com/panjf2000/gnet
 ```
 
 # 🎡 Use cases
@@ -170,13 +170,13 @@ Support us with a monthly donation and help us continue our activities.
 
 # 💎 Sponsors
 
-Become a bronze sponsor with a monthly donation of $10 and get your logo on our README on Github.
+Become a bronze sponsor with a monthly donation of $10 and get your logo on our README ongithub.
 
 <a href="https://opencollective.com/gnet#sponsors" target="_blank"><img src="https://opencollective.com/gnet/sponsors.svg"></a>
 
 # ☕️ Buy me a coffee
 
-> Please be sure to leave your name, Github account or other social media accounts when you donate by the following means so that I can add it to the list of donors as a token of my appreciation.
+> Please be sure to leave your name,github account or other social media accounts when you donate by the following means so that I can add it to the list of donors as a token of my appreciation.
 
 <img src="https://raw.githubusercontent.com/panjf2000/illustrations/master/payments/WeChatPay.JPG" width="250" align="middle"/>&nbsp;&nbsp;
 <img src="https://raw.githubusercontent.com/panjf2000/illustrations/master/payments/AliPay.JPG" width="250" align="middle"/>&nbsp;&nbsp;

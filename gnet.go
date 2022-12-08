@@ -23,10 +23,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/panjf2000/gnet/v2/internal/math"
-	"github.com/panjf2000/gnet/v2/pkg/buffer/ring"
-	"github.com/panjf2000/gnet/v2/pkg/errors"
-	"github.com/panjf2000/gnet/v2/pkg/logging"
+	"github.com/Yajun312890225/gnet/internal/math"
+	"github.com/Yajun312890225/gnet/pkg/buffer/ring"
+	"github.com/Yajun312890225/gnet/pkg/errors"
+	"github.com/Yajun312890225/gnet/pkg/logging"
 	"golang.org/x/sys/unix"
 )
 

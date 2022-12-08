@@ -20,7 +20,7 @@ package gnet
 import (
 	"golang.org/x/sys/unix"
 
-	"github.com/panjf2000/gnet/v2/internal/netpoll"
+	"github.com/Yajun312890225/gnet/internal/netpoll"
 )
 
 func (c *conn) handleEvents(_ int, filter int16) (err error) {

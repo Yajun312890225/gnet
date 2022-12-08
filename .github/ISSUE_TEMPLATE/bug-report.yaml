@@ -21,7 +21,7 @@ body:
       options:
         - label: I've thoroughly read the documentations on this issue but still have no clue.
           required: true
-        - label: I've searched the current list of Github issues but didn't find any duplicate issues that have been solved.
+        - label: I've searched the current list ofgithub issues but didn't find any duplicate issues that have been solved.
           required: true
         - label: I've searched the internet with this issue, but haven't found anything helpful.
           required: true

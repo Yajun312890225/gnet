@@ -24,7 +24,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/panjf2000/gnet/v2/pkg/errors"
+	"github.com/Yajun312890225/gnet/pkg/errors"
 )
 
 // SetNoDelay controls whether the operating system should delay

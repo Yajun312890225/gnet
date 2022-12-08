@@ -35,10 +35,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	gerr "github.com/panjf2000/gnet/v2/pkg/errors"
-	"github.com/panjf2000/gnet/v2/pkg/logging"
-	bbPool "github.com/panjf2000/gnet/v2/pkg/pool/bytebuffer"
-	goPool "github.com/panjf2000/gnet/v2/pkg/pool/goroutine"
+	gerr "github.com/Yajun312890225/gnet/pkg/errors"
+	"github.com/Yajun312890225/gnet/pkg/logging"
+	bbPool "github.com/Yajun312890225/gnet/pkg/pool/bytebuffer"
+	goPool "github.com/Yajun312890225/gnet/pkg/pool/goroutine"
 )
 
 var streamLen = 1024 * 1024

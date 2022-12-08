@@ -27,12 +27,12 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/panjf2000/gnet/v2/internal/math"
-	"github.com/panjf2000/gnet/v2/internal/netpoll"
-	"github.com/panjf2000/gnet/v2/internal/socket"
-	"github.com/panjf2000/gnet/v2/pkg/buffer/ring"
-	gerrors "github.com/panjf2000/gnet/v2/pkg/errors"
-	"github.com/panjf2000/gnet/v2/pkg/logging"
+	"github.com/Yajun312890225/gnet/internal/math"
+	"github.com/Yajun312890225/gnet/internal/netpoll"
+	"github.com/Yajun312890225/gnet/internal/socket"
+	"github.com/Yajun312890225/gnet/pkg/buffer/ring"
+	gerrors "github.com/Yajun312890225/gnet/pkg/errors"
+	"github.com/Yajun312890225/gnet/pkg/logging"
 )
 
 // Client of gnet.

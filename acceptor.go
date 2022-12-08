@@ -23,10 +23,10 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/panjf2000/gnet/v2/internal/netpoll"
-	"github.com/panjf2000/gnet/v2/internal/socket"
-	"github.com/panjf2000/gnet/v2/pkg/errors"
-	"github.com/panjf2000/gnet/v2/pkg/logging"
+	"github.com/Yajun312890225/gnet/internal/netpoll"
+	"github.com/Yajun312890225/gnet/internal/socket"
+	"github.com/Yajun312890225/gnet/pkg/errors"
+	"github.com/Yajun312890225/gnet/pkg/logging"
 )
 
 func (eng *engine) accept(fd int, _ netpoll.IOEvent) error {
