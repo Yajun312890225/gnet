@@ -305,10 +305,19 @@ func (el *eventloop) readUDP(fd int, _ netpoll.IOEvent) error {
 		c = newUDPConn(fd, el, el.ln.addr, sa, false)
 	} else {
 		c = el.udpSockets[fd]
-		if c.RemoteAddr() == nil {
-			addr := sa.(*unix.SockaddrInet4).Addr
-			port := sa.(*unix.SockaddrInet4).Port
-			c.remoteAddr = &net.UDPAddr{IP: addr[:], Port: port}
+		addr, ok := sa.(*unix.SockaddrInet4)
+		if !ok {
+			return fmt.Errorf("failed to read UDP packet from fd=%d in event-loop(%d), %v",
+				fd, el.idx, os.NewSyscallError("recvfrom", err))
+		}
+		port, ok := sa.(*unix.SockaddrInet4)
+		if !ok {
+			return fmt.Errorf("failed to read UDP packet from fd=%d in event-loop(%d), %v",
+				fd, el.idx, os.NewSyscallError("recvfrom", err))
+		}
+		remote := &net.UDPAddr{IP: addr.Addr[:], Port: port.Port}
+		if c.RemoteAddr() == nil || c.RemoteAddr().String() != remote.String() {
+			c.remoteAddr = remote
 		}
 	}
 	c.buffer = el.buffer[:n]
